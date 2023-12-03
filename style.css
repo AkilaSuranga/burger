@@ -1,0 +1,334 @@
+.section-p1{
+    padding: 50px 60px;
+}
+
+.section-m1{
+    margin: 40px 0;
+}
+
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #0b0b0c;
+    background-color: aliceblue;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s;
+
+}
+
+.img-topic{
+    font-size: 15px;
+}
+
+
+
+#header{
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+   padding: 15px 50px;
+   background-color: rgba(33, 30, 30, 0.747);
+   box-shadow:0 5px 15px rgba(0, 0, 0, 0);
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 50px;
+    font-size: 10px;
+    position: 10px;
+}
+
+#navbar li a{
+   text-decoration: none;
+   font-size: 25px;
+   font-weight: 600;
+   color: #e5e5ea;
+   
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color:#0a0a0a;
+}
+
+#navbar li a.active::after,
+#navbar li a.hover::after{
+    content:"";
+    width: 30px;
+    height: 2px;
+    background-color: #f1f1f6;
+    position:absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#hero{
+    background-image: url(images/burger\ inter.png) ;
+    height:80vh;
+    width: 100%;
+    background-position: right;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+    background-image: rgba(rgb(16, 14, 14), rgb(28, 31, 28), rgb(19, 19, 20), alpha);
+}
+
+#hero h4{
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-style: oblique;
+    border: #e1e3dc;
+}
+
+#hero h1{
+    color: rgb(228, 228, 236);
+    font-size: 65px;
+}
+
+#hero:hover{
+    color: aliceblue;
+}
+ 
+#hero h1:hover{
+    color: rgb(211, 93, 15);
+}
+
+
+#hero button{
+    background: linear-gradient(45deg,#8e8db9,#4d4dbd,#91d400);
+    background-color: transparent;
+    color: rgb(18, 20, 20);
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    font-size: 25px;
+}
+
+#hero p{
+    font-size: 28px;
+    align-items: center;
+    font-weight: 5px;
+    font-style:italic;
+    color: #eeeee7;
+}
+
+#feature {
+    background-image: url(images/empty\ des.png) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.3);
+    border: 1px solid #bcbcc7;
+    background-image: center;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(rgb(36, 29, 29), green, blue, alpha);
+}
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius:4px;
+    color: #171b0f;
+    background-color: #bbc483;
+}
+
+#product1{
+    background-image: url(images/empty\ des.png) ;
+    text-align:center ;
+}
+
+#product1 .pro-container{
+    display:flex;
+    justify-content:space-between;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid rgb(159, 147, 147);
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(rgb(98, 82, 82), green, blue, alpha);
+    margin: 15px 0;
+    transition: 0.2s ease;
+}
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(rgb(98, 82, 82), green, blue, alpha);
+}
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+} 
+
+#product1 .pro .des span{
+    color: orange;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: white;
+    font-size: 14px ;
+}
+
+#product1 .pro .des i {
+    font-size: 12px;
+    color: rgb(225, 255, 0);
+
+}
+
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #66910b;
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image:url("images/black.webp");
+}
+
+
+#banner h2 span{
+    color: rgb(84, 45, 203);
+}
+
+#banner button:hover{
+    background: #66910b;
+    color:white ;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer.row{
+    margin-bottom: 20px;
+}
+
+
+footer h4{
+    font-size:24px;
+    padding-bottom: 20px;
+}
+
+ 
+footer p{
+    font-size:17px;
+    margin: 0 0 7px 0 ;
+} 
+
+footer a{
+    font-size:17px;
+    text-decoration: none;
+    color: black;
+    margin: 0 0 7px 0 ;
+} 
+
+footer .copyright {
+   width: 100%;
+   text-align: center;
+   padding:20px 100px;
+   background-color: #0b0b0c;
+   color: white;
+}
+
+#shop-header{
+    background-image: url(images/shop\ 1.png);
+    width: 100%;
+    height: 4ovh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: rgba(237, 237, 246, 0.9);
+}
+
+#shop-header h1{
+    font-size:50px;
+}
+
+#shop-header h2{
+    font-size:40px;
+}
+
+#shop-header p{
+    font-size:25px;
+}
+
+
+#blog-header{
+    background-image: url(images/fire\ burger.jpg);
+    width: 100%;
+    height: 4ovh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: rgba(200, 200, 211, 0.9);
+}
+
+#blog-header h1{
+    font-size:50px;
+}
+
+#blog-header h2{
+    font-size:40px;
+}
+
+#blog-header p{
+    font-size:25px;
+}
